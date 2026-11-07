@@ -1,3 +1,17 @@
+
 plugins {
-    id 'com.android.application' version '8.7.3' apply false
+    id 'com.android.application' version '8.7.3'
+}
+
+android {
+    namespace 'tj.rusauto.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'tj.rusauto.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
 }
