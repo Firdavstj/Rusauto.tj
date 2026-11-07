@@ -68,6 +68,5 @@ public class MainActivity extends Activity {
     private void copy(String value) {
         if (value.isEmpty()) { Toast.makeText(this,"Сначала нажмите GENERATE",Toast.LENGTH_SHORT).show(); return; }
         ((ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE)).setPrimaryClip(ClipData.newPlainText("rusauto.tj",value));
-        Toast.makeText(this,"Скопировано",Toast.LENGTH_SHORT).show();
-    }
+        Toast.makeText(this,"Скопировано",Toast.LENGTH_SHORT).show();    }
 }
